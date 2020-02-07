@@ -5,5 +5,15 @@
   </head>
   <body>
     <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+    <script>
+      function printTime() {
+      var d = new Date();
+      var hours = d.getHours();
+      var mins = d.getMinutes();
+      var secs = d.getSeconds();
+      document.body.innerHTML = hours+":"+mins+":"+secs;
+    </script>
+}
+setInterval(printTime, 1000);
   </body>
 </html>
