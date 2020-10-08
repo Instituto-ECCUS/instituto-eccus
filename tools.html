@@ -99,7 +99,7 @@
                     <input type="text" class="form-control" id="limpeza"
                         placeholder="Qual a periodicidade de limpeza em anos?">
                     <span class="label">Número de Pessoas (1-50) = </span>
-                    <input type="text" class="form-control" id="limpeza"
+                    <input type="text" class="form-control" id="pessoas"
                         placeholder="Quantas pessoas vão utilizar o sistema diariamente?">
                     <!-- </div> -->
                 </div>
@@ -118,7 +118,7 @@
                             placeholder="Espaço que a BET vai utilizar">
                     </div>
                     <div class="col-md-12 text-right">
-                        <button type="submit" value="submit" class="btn primary_btn">Calcular!</button>
+                        <button onclick="dimensionarBET()" class="btn primary_btn">Calcular!</button>
                         </form>
                     </div>
                 </div>
@@ -293,6 +293,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
     <script src="js/gmaps.min.js"></script>
     <script src="js/theme.js"></script>
+    <script defer src="js/eccusBET.js"></script>
 </body>
 
 </html>
